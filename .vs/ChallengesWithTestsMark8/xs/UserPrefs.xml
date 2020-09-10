@@ -2,12 +2,13 @@
   <MonoDevelop.Ide.ItemProperties.ChallengesWithTestsMark8 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ChallengesWithTestsMark8/ChallengesSet02.cs">
     <Files>
-      <File FileName="ChallengesWithTestsMark8/ChallengesSet03.cs" Line="51" Column="41" />
-      <File FileName="ChallengesWithTestsMark8/ChallengesSet04.cs" />
-      <File FileName="ChallengesWithTestsMark8/ChallengesSet02.cs" Line="83" Column="30" />
-      <File FileName="ChallengesWithTestsMark8.Tests/ChallengesSet03Tests.cs" Line="10" Column="67" NotebookId="1" />
-      <File FileName="ChallengesWithTestsMark8.Tests/ChallengesSet04Tests.cs" NotebookId="1" />
-      <File FileName="ChallengesWithTestsMark8.Tests/ChallengesSet02Tests.cs" NotebookId="1" />
+      <File FileName="ChallengesWithTestsMark8/ChallengesSet02.cs" Line="204" Column="31" />
+      <File FileName="ChallengesWithTestsMark8/ChallengesSet03.cs" Line="109" Column="33" />
+      <File FileName="ChallengesWithTestsMark8/ChallengesSet04.cs" Line="123" Column="14" />
+      <File FileName="ChallengesWithTestsMark8/ChallengesSet01.cs" Line="1" Column="1" />
+      <File FileName="ChallengesWithTestsMark8.Tests/ChallengesSet02Tests.cs" Line="238" Column="42" NotebookId="1" />
+      <File FileName="ChallengesWithTestsMark8.Tests/ChallengesSet03Tests.cs" Line="191" Column="43" NotebookId="1" />
+      <File FileName="ChallengesWithTestsMark8.Tests/ChallengesSet04Tests.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,7 +23,27 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="ChallengesWithTestsMark8" expanded="True" selected="True" />
+          <Node name="ChallengesWithTestsMark8" expanded="True">
+            <Node name="ChallengesWithTestsMark8.Tests" expanded="True">
+              <Node name="ChallengesWithTestsMark8.Tests" expanded="True">
+                <Node name="ChallengesSet02Tests" expanded="True">
+                  <Node name="CountOfPositiveOddsBelowNumber(number: 0, expected: 0)" selected="True" />
+                  <Node name="CountOfPositiveOddsBelowNumber(number: 1, expected: 0)" selected="True" />
+                  <Node name="CountOfPositiveOddsBelowNumber(number: -1, expected: 0)" selected="True" />
+                  <Node name="CountOfPositiveOddsBelowNumber(number: -1000, expected: 0)" selected="True" />
+                  <Node name="CountOfPositiveOddsBelowNumber(number: 1999999999, expected: 999999999)" selected="True" />
+                  <Node name="CountOfPositiveOddsBelowNumber(number: 2, expected: 1)" selected="True" />
+                  <Node name="CountOfPositiveOddsBelowNumber(number: 2000000000, expected: 1000000000)" selected="True" />
+                  <Node name="CountOfPositiveOddsBelowNumber(number: 3, expected: 1)" selected="True" />
+                  <Node name="CountOfPositiveOddsBelowNumber(number: -4, expected: 0)" selected="True" />
+                  <Node name="CountOfPositiveOddsBelowNumber(number: 4, expected: 2)" selected="True" />
+                  <Node name="CountOfPositiveOddsBelowNumber(number: 5, expected: 2)" selected="True" />
+                  <Node name="CountOfPositiveOddsBelowNumber(number: 6, expected: 3)" selected="True" />
+                  <Node name="CountOfPositiveOddsBelowNumber(number: 7, expected: 3)" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

@@ -10,7 +10,7 @@ namespace ChallengesWithTestsMark8
 
             int evenResult = 0;
             int oddResult = 0;
-            double result = 0;
+
 
             foreach (int i in numbers)
             
@@ -127,7 +127,10 @@ namespace ChallengesWithTestsMark8
 
         public bool IsStringANumber(string input)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            
+            return double.TryParse(input, out _);
         }
 
         public bool MajorityOfElementsInArrayAreNull(object[] objs)

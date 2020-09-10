@@ -75,7 +75,11 @@ namespace ChallengesWithTestsMark8
 
         public char GetLastLetterOfString(string val)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            char lastChar = val[val.Length - 1];
+
+            return lastChar;
 
             //char lastChar = val.Last();
 
@@ -91,12 +95,20 @@ namespace ChallengesWithTestsMark8
 
         public int LastMinusFirst(int[] nums)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            int lastEl = nums[nums.Length - 1];
+            int firstEl = nums[0];
+
+            return lastEl - firstEl;
+
         }
 
         public int[] GetOddsBelow100()
         {
             throw new NotImplementedException();
+
+
         }
 
         public void ChangeAllElementsToUppercase(string[] words)

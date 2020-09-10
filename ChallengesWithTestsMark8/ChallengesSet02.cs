@@ -62,10 +62,25 @@ namespace ChallengesWithTestsMark8
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
 
-            //int min = 0;
-            //int max = 0;
+            double min = 0;
+            double max = 0;
+            double sumMinMax = 0;
+
+            foreach (double i in numbers)
+            {
+                if (i >= max)
+                {
+                    max = i;
+                }
+                if (i <= min)
+                {
+                    min = i;
+                }
+
+            }
+            return sumMinMax = max + min;
 
 
             //for (int i = 0; i < numbers; i++)
@@ -163,7 +178,45 @@ namespace ChallengesWithTestsMark8
 
         public long CountOfPositiveOddsBelowNumber(long number)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            int divisibleBy = 2;
+            long countEr = 0;
+
+            //if (number % divisibleBy != 0)
+            //{
+            //    countEr++;
+            //}
+            //for (int i = 0; i < number; i++)
+            //{
+            //    if (number % divisibleBy != 0)
+            //    {
+            //        countEr++;
+            //    }
+
+            //}
+            //return countEr;
+            if (number < 0)
+            {
+                return 0;
+            }
+
+            return number / 2;
+
+
+            //long dividend = 0;
+
+            //return dividend % 2;
         }
+
+        //    long oddResult = 0;
+
+        //    if (number % 2 != 0)
+        //    {
+        //        oddResult += number;
+        //    }
+
+        //    return oddResult;
+        //}
     }
 }
